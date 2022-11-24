@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-image: linear-gradient( rgba(0,0,0,0.9),rgba(0,0,0,0.9)),url('images/hero page/7.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200vh;
+}
+header{
+    color:rgb(184, 179, 179);
+    display: flex;
+    height: 10vh;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.latest-conatainer{
+    padding: 10px 0px;
+}
+.latest-conatainer{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+.latest-movies img{
+    height: 300px;
+    cursor: pointer;
+    padding: 10px;
+    transition: all 500ms ease-in-out;
+}
+.latest-movies img:hover{
+    transform: scale(1.1);
+}
+.heading1{
+    color: skyblue;
+    line-height: 1.5;
+}
+.heading1 h4{
+    font-size: 14px;
+    margin-left: 5px;
+}
+.heading1 h6{
+    font-size: 12px;
+    margin-left: 5px;
+}
+.btn2{
+    margin-top: -65px;
+    margin-left: 135px;
+}
+.btn2 a{
+    font-size: 14px;
+    text-decoration: none;
+    background-color: skyblue;
+    padding: 6px 6px;
+    border-radius: 10px;
+    color: white;
+}
+.latest-show img{
+    height: 300px;
+    cursor: pointer;
+    padding: 10px;
+    transition: all 500ms ease-in-out;
+}
+.latest-show img:hover{
+    transform: scale(1.1);
+}
+.latest-conatainer1{
+    margin-left: 250px;
+    margin-top: -705px;
+}
+.latest-kh img{
+    height: 300px;
+    cursor: pointer;
+    padding: 10px;
+    transition: all 500ms ease-in-out;
+}
+.latest-kh img:hover{
+    transform: scale(1.1);
+}
+.latest-conatainer2{
+    margin-left: 250px;
+    margin-top: 50px;
+}
+.latest-evr img{
+    height: 300px;
+    cursor: pointer;
+    padding: 10px;
+    transition: all 500ms ease-in-out;
+}
+.latest-evr img:hover{
+    transform: scale(1.1);
+}
+.latest-conatainer3{
+    margin-left: 490px;
+    margin-top: -695px;
+}
+.btn3{
+    margin-top: -65px;
+    margin-left: 175px;
+}
+.btn3 a{
+    font-size: 14px;
+    text-decoration: none;
+    background-color: skyblue;
+    padding: 6px 6px;
+    border-radius: 10px;
+    color: white;
+}
+.latest-lgr img{
+    height: 300px;
+    cursor: pointer;
+    padding: 10px;
+    transition: all 500ms ease-in-out;
+}
+.latest-lgr img:hover{
+    transform: scale(1.1);
+}
+.latest-conatainer4{
+    margin-left: 500px;
+    margin-top: 50px;
+}
+.latest-shm img{
+    height: 300px;
+    cursor: pointer;
+    padding: 10px;
+    transition: all 500ms ease-in-out;
+}
+.latest-shm img:hover{
+    transform: scale(1.1);
+}
+.latest-conatainer5{
+    margin-left: 760px;
+    margin-top: -695px;
+}
+.latest-drm img{
+    height: 300px;
+    cursor: pointer;
+    padding: 10px;
+    transition: all 500ms ease-in-out;
+}
+.latest-drm img:hover{
+    transform: scale(1.1);
+}
+.latest-conatainer6{
+    margin-left: 760px;
+    margin-top: 45px;
+}
+.latest-rms img{
+    height: 300px;
+    cursor: pointer;
+    padding: 10px;
+    transition: all 500ms ease-in-out;
+}
+.latest-rms img:hover{
+    transform: scale(1.1);
+}
+.latest-conatainer7{
+    margin-left: 1010px;
+    margin-top: -688px;
+}
+.latest-shr img{
+    height: 300px;
+    cursor: pointer;
+    padding: 10px;
+    transition: all 500ms ease-in-out;
+}
+.latest-shr img:hover{
+    transform: scale(1.1);
+}
+.latest-conatainer8{
+    margin-left: 1010px;
+    margin-top: 50px;
+}
+.footer{
+    position: absolute;
+    margin-top: 400px;
+    height: 20vh;
+    color: white;
+    width: 100%;
+    justify-content: space-between;
+    text-align: center;
+}
+.logopart img{
+    height: 7vh;
+    margin-left: -125px;
+    margin-top: -26px;
+    background-color: aqua;
+    border-radius: 3px;
+}
+.logopart h1{
+    color: rgb(18, 241, 241);
+    font-size: 25px;
+    margin-top: -150px;
+    margin-left: 48px;
+}
+.copyright{
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+.social{
+    position: absolute;
+    margin-top: 240px;
+    margin-left: 1100px;
+}
+.btn a{
+    font-size: 14px;
+    text-decoration: none;
+    background-color: skyblue;
+    padding: 6px 6px;
+    border-radius: 10px;
+    color: white;
+}
+.btn{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.btn a:hover{
+    color: black;
+}
